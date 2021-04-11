@@ -1,0 +1,3 @@
+/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles/RequestManager.dir

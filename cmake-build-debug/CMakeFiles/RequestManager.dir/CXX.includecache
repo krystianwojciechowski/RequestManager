@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.cpp
+Request.h
+/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.h
+list
+-
+iterator
+-
+iostream
+-
+netdb.h
+-
+
+/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.h
+string
+-
+list
+-
+sstream
+-
+
