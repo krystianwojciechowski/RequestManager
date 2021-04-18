@@ -7,8 +7,9 @@
 #include <iterator>
 #include <iostream>
 #include <netdb.h>
-
+#include "RequestBuilder/Method/Method.h"
 Request::Request()  {
+    this->request_stream = std::stringstream();
 }
 
 void Request::addHeader(std::string header,std::string value) {
@@ -19,51 +20,36 @@ void Request::setBody(std::string body) {
     this->body = body;
 }
 
-void Request::setMethod(int method) {
-    this->method = this->mapIntToMethod(method);
+void Request::setMethod(std::string method) {
+    this->method = method;
 }
 
 void Request::setResource(std::string resource) {
     this->resource = resource;
 }
 
-std::string Request::mapIntToMethod(int method) {
-    switch (method) {
-        case 1:
-            return "GET";
-        case 2 :
-            return "POST";
-        case 3:
-            return "PUT";
-        case 4:
-            return "PATCH";
-        case 5:
-            return "DELETE";
-        case 6:
-            return "UPDATE";
-        default:
-            return "GET";
-    }
-}
+
 
 std::stringstream* Request::toStringStream() {
-    this->request_stream<<this->method<<" "<<this->resource<<" HTTP/2"<<this->newline();
-    std::copy(this->headers.begin(),this->headers.end(),std::ostream_iterator<std::string>(this->request_stream,"\n"));
+    this->request_stream<<this->method<<" "<<this->resource<<" HTTP/1.1"<<this->newline();
+    std::copy(this->headers.begin(),this->headers.end(),std::ostream_iterator<std::string>(this->request_stream,"\r\n"));
     //this->request_stream<<this->url;
-    this->request_stream<<this->body;
-
+   // this->request_stream<<this->body;
+    this->request_stream<<this->newline()<<this->newline();
     return &this->request_stream;
 }
 
-void Request::setUrl(std::string url) {
-
-    struct hostent* host = gethostbyname(url.c_str());
-    std::string uri = "url" + std::string(*host->h_addr_list) + this->newline();
-    this->url = std::string(*host->h_addr_list);
-}
+//void Request::setUrl(std::string url) {
+////    std::string uri = "url" + std::string(*host->h_addr_list) + this->newline();
+////    this->url = std::string(*host->h_addr_list);
+//}
 
 std::string Request::newline() {
     return "\r\n";
+}
+
+void Request::setHost(std::string host) {
+    this->host = host;
 }
 
 

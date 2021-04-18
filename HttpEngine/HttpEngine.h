@@ -11,11 +11,13 @@
 #include <stdlib.h>
 #include <netinet/in.h>
 #include <string>
+#include "../HttpFundamentals/Request/Request.h"
+
 class HttpEngine {
 private:
 //    Connection connection;
 public:
-    void connect(int domain=AF_INET,int type=SOCK_STREAM,int protocol=0);
+    void connect(Request* request,int domain=AF_INET,int type=SOCK_STREAM,int protocol=0);
     void disconnect();
 //    Connection getConnection();
 };

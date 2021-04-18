@@ -6,12 +6,12 @@ int main() {
 
     RequestBuilder requestBuilder;
     requestBuilder.setResource("/");
-    requestBuilder.setMethod(Methods::GET);
+    requestBuilder.setMethod(Method::GET);
     requestBuilder.setBody("body");
-    requestBuilder.addHeader("accept","text/json");
+    requestBuilder.addHeader("accept","*/*");
     requestBuilder.setURL("localhost");
     std::stringstream* stringstream = requestBuilder.build()->toStringStream();
     std::cout<<stringstream->str();
-    //    HttpEngine connection;
-//    connection.connect();
+    HttpEngine connection;
+     connection.connect(requestBuilder.build());
 }

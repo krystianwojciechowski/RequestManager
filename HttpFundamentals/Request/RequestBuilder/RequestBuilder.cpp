@@ -5,8 +5,8 @@
 #include "RequestBuilder.h"
 
 #include <string>
-void RequestBuilder::setMethod(Methods method) {
-    this->request.setMethod( (int)method);
+void RequestBuilder::setMethod(std::string method) {
+    this->request.setMethod(method);
 }
 
 void RequestBuilder::addHeader(std::string header,std::string value) {
@@ -18,7 +18,7 @@ void RequestBuilder::setResource(std::string resource) {
 }
 
 void RequestBuilder::setURL(std::string url) {
-    this->request.setUrl(url);
+//    this->request.setUrl(url);
 }
 
 Request* RequestBuilder::build() {
@@ -27,6 +27,10 @@ Request* RequestBuilder::build() {
 
 void RequestBuilder::setBody(std::string body) {
     this->request.setBody(body);
+}
+
+RequestBuilder::RequestBuilder() {
+//    this->request = Request();
 }
 
 

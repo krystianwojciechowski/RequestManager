@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/Cache/FileCache/FileCacheManager.cpp">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/Cache/FileCache/FileCacheManager.h">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/DOMParser/DOMParser.cpp">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/DOMParser/DOMParser.h">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/DOMParser/Node/Node.cpp">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/DOMParser/Node/Node.h">
+			<Option target="RequestManager"/>
+		</Unit>
 		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpEngine/HttpEngine.cpp">
 			<Option target="RequestManager"/>
 		</Unit>
@@ -96,7 +114,10 @@
 		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.h">
 			<Option target="RequestManager"/>
 		</Unit>
-		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Methods/Methods.h">
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp">
+			<Option target="RequestManager"/>
+		</Unit>
+		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.h">
 			<Option target="RequestManager"/>
 		</Unit>
 		<Unit filename="/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp">

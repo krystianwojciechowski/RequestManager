@@ -143,6 +143,87 @@ RequestManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/build
 .PHONY : RequestManager/fast
 
+Cache/FileCache/FileCacheManager.o: Cache/FileCache/FileCacheManager.cpp.o
+
+.PHONY : Cache/FileCache/FileCacheManager.o
+
+# target to build an object file
+Cache/FileCache/FileCacheManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o
+.PHONY : Cache/FileCache/FileCacheManager.cpp.o
+
+Cache/FileCache/FileCacheManager.i: Cache/FileCache/FileCacheManager.cpp.i
+
+.PHONY : Cache/FileCache/FileCacheManager.i
+
+# target to preprocess a source file
+Cache/FileCache/FileCacheManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.i
+.PHONY : Cache/FileCache/FileCacheManager.cpp.i
+
+Cache/FileCache/FileCacheManager.s: Cache/FileCache/FileCacheManager.cpp.s
+
+.PHONY : Cache/FileCache/FileCacheManager.s
+
+# target to generate assembly for a file
+Cache/FileCache/FileCacheManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.s
+.PHONY : Cache/FileCache/FileCacheManager.cpp.s
+
+DOMParser/DOMParser.o: DOMParser/DOMParser.cpp.o
+
+.PHONY : DOMParser/DOMParser.o
+
+# target to build an object file
+DOMParser/DOMParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o
+.PHONY : DOMParser/DOMParser.cpp.o
+
+DOMParser/DOMParser.i: DOMParser/DOMParser.cpp.i
+
+.PHONY : DOMParser/DOMParser.i
+
+# target to preprocess a source file
+DOMParser/DOMParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.i
+.PHONY : DOMParser/DOMParser.cpp.i
+
+DOMParser/DOMParser.s: DOMParser/DOMParser.cpp.s
+
+.PHONY : DOMParser/DOMParser.s
+
+# target to generate assembly for a file
+DOMParser/DOMParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.s
+.PHONY : DOMParser/DOMParser.cpp.s
+
+DOMParser/Node/Node.o: DOMParser/Node/Node.cpp.o
+
+.PHONY : DOMParser/Node/Node.o
+
+# target to build an object file
+DOMParser/Node/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o
+.PHONY : DOMParser/Node/Node.cpp.o
+
+DOMParser/Node/Node.i: DOMParser/Node/Node.cpp.i
+
+.PHONY : DOMParser/Node/Node.i
+
+# target to preprocess a source file
+DOMParser/Node/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.i
+.PHONY : DOMParser/Node/Node.cpp.i
+
+DOMParser/Node/Node.s: DOMParser/Node/Node.cpp.s
+
+.PHONY : DOMParser/Node/Node.s
+
+# target to generate assembly for a file
+DOMParser/Node/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.s
+.PHONY : DOMParser/Node/Node.cpp.s
+
 HttpEngine/HttpEngine.o: HttpEngine/HttpEngine.cpp.o
 
 .PHONY : HttpEngine/HttpEngine.o
@@ -196,6 +277,33 @@ HttpFundamentals/Request/Request.s: HttpFundamentals/Request/Request.cpp.s
 HttpFundamentals/Request/Request.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.s
 .PHONY : HttpFundamentals/Request/Request.cpp.s
+
+HttpFundamentals/Request/RequestBuilder/Method/Method.o: HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o
+
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.o
+
+# target to build an object file
+HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o
+
+HttpFundamentals/Request/RequestBuilder/Method/Method.i: HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i
+
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.i
+
+# target to preprocess a source file
+HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i
+
+HttpFundamentals/Request/RequestBuilder/Method/Method.s: HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s
+
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.s
+
+# target to generate assembly for a file
+HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RequestManager.dir/build.make CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s
+.PHONY : HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s
 
 HttpFundamentals/Request/RequestBuilder/RequestBuilder.o: HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o
 
@@ -260,12 +368,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RequestManager"
+	@echo "... Cache/FileCache/FileCacheManager.o"
+	@echo "... Cache/FileCache/FileCacheManager.i"
+	@echo "... Cache/FileCache/FileCacheManager.s"
+	@echo "... DOMParser/DOMParser.o"
+	@echo "... DOMParser/DOMParser.i"
+	@echo "... DOMParser/DOMParser.s"
+	@echo "... DOMParser/Node/Node.o"
+	@echo "... DOMParser/Node/Node.i"
+	@echo "... DOMParser/Node/Node.s"
 	@echo "... HttpEngine/HttpEngine.o"
 	@echo "... HttpEngine/HttpEngine.i"
 	@echo "... HttpEngine/HttpEngine.s"
 	@echo "... HttpFundamentals/Request/Request.o"
 	@echo "... HttpFundamentals/Request/Request.i"
 	@echo "... HttpFundamentals/Request/Request.s"
+	@echo "... HttpFundamentals/Request/RequestBuilder/Method/Method.o"
+	@echo "... HttpFundamentals/Request/RequestBuilder/Method/Method.i"
+	@echo "... HttpFundamentals/Request/RequestBuilder/Method/Method.s"
 	@echo "... HttpFundamentals/Request/RequestBuilder/RequestBuilder.o"
 	@echo "... HttpFundamentals/Request/RequestBuilder/RequestBuilder.i"
 	@echo "... HttpFundamentals/Request/RequestBuilder/RequestBuilder.s"

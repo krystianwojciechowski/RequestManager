@@ -3,6 +3,7 @@
 //
 
 #include "HttpEngine.h"
+#include "../HttpFundamentals/Request/Request.h"
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/socket.h>
@@ -25,12 +26,10 @@
 #include <sstream>
 #include <fstream>
 #include <string>
-void HttpEngine::connect(int domain,int type,int protocol) {
-    std::cout<<"Starting";
+void HttpEngine::connect(Request* request,int domain,int type,int protocol) {
     int inet =AF_INET;
     sa_family_t family = (sa_family_t )domain;
     int socket_descriptor = socket(family,type,protocol);
-    std::cout<<"Starting";
     struct hostent* host_name = gethostbyname("localhost");
     struct sockaddr_in client_data = {
             .sin_family = family,
@@ -45,16 +44,16 @@ void HttpEngine::connect(int domain,int type,int protocol) {
     void* buffer = alloca(256);
 
 
-    std::stringstream ss;
-    ss << "GET /"  << " HTTP/1.1\r\n"
-       << "Accept: */*\r\n"
-       << "\r\n\r\n";
-    int j = send(socket_descriptor,ss.str().c_str(),ss.str().length(),MSG_CONFIRM);
+    std::stringstream* ss = request->toStringStream();
+//    ss << "GET /"  << " HTTP/1.1\r\n"
+//       << "Accept: */*\r\n"
+//       << "\r\n\r\n";
+    int j = send(socket_descriptor,ss->str().c_str(),ss->str().length(),MSG_CONFIRM);
     char cur;
+    std::string stringResponse;
     while ( read(socket_descriptor, &cur, 1) > 0 ) {
         std::cout << cur;
+        stringResponse.append(&cur);
     }
-//    close(socket_descriptor);
-//    close(new_socket_file_descriptor);
-
+    close(socket_descriptor);
 }

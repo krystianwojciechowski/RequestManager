@@ -17,6 +17,8 @@ iostream
 -
 netdb.h
 -
+RequestBuilder/Method/Method.h
+/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.h
 
 /home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.h
 string
@@ -24,5 +26,9 @@ string
 list
 -
 sstream
+-
+
+/home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.h
+string
 -
 

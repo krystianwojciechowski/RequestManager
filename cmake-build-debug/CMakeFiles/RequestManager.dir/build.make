@@ -129,12 +129,68 @@ CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/Request.cpp -o CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.s
 
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o: CMakeFiles/RequestManager.dir/flags.make
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o -c /home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp
+
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp > CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.i
+
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krystian/CLionProjects/RequestManager/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp -o CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.s
+
+CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o: CMakeFiles/RequestManager.dir/flags.make
+CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o: ../Cache/FileCache/FileCacheManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o -c /home/krystian/CLionProjects/RequestManager/Cache/FileCache/FileCacheManager.cpp
+
+CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krystian/CLionProjects/RequestManager/Cache/FileCache/FileCacheManager.cpp > CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.i
+
+CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krystian/CLionProjects/RequestManager/Cache/FileCache/FileCacheManager.cpp -o CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.s
+
+CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o: CMakeFiles/RequestManager.dir/flags.make
+CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o: ../DOMParser/DOMParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o -c /home/krystian/CLionProjects/RequestManager/DOMParser/DOMParser.cpp
+
+CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krystian/CLionProjects/RequestManager/DOMParser/DOMParser.cpp > CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.i
+
+CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krystian/CLionProjects/RequestManager/DOMParser/DOMParser.cpp -o CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.s
+
+CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o: CMakeFiles/RequestManager.dir/flags.make
+CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o: ../DOMParser/Node/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o -c /home/krystian/CLionProjects/RequestManager/DOMParser/Node/Node.cpp
+
+CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krystian/CLionProjects/RequestManager/DOMParser/Node/Node.cpp > CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.i
+
+CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krystian/CLionProjects/RequestManager/DOMParser/Node/Node.cpp -o CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.s
+
 # Object files for target RequestManager
 RequestManager_OBJECTS = \
 "CMakeFiles/RequestManager.dir/main.cpp.o" \
 "CMakeFiles/RequestManager.dir/HttpEngine/HttpEngine.cpp.o" \
 "CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o" \
-"CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o"
+"CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o" \
+"CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o" \
+"CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o" \
+"CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o" \
+"CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o"
 
 # External object files for target RequestManager
 RequestManager_EXTERNAL_OBJECTS =
@@ -143,9 +199,13 @@ RequestManager: CMakeFiles/RequestManager.dir/main.cpp.o
 RequestManager: CMakeFiles/RequestManager.dir/HttpEngine/HttpEngine.cpp.o
 RequestManager: CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o
 RequestManager: CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o
+RequestManager: CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o
+RequestManager: CMakeFiles/RequestManager.dir/Cache/FileCache/FileCacheManager.cpp.o
+RequestManager: CMakeFiles/RequestManager.dir/DOMParser/DOMParser.cpp.o
+RequestManager: CMakeFiles/RequestManager.dir/DOMParser/Node/Node.cpp.o
 RequestManager: CMakeFiles/RequestManager.dir/build.make
 RequestManager: CMakeFiles/RequestManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable RequestManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krystian/CLionProjects/RequestManager/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RequestManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RequestManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

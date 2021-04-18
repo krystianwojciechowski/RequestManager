@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
-
+const path = require("path");
 
 app.get("/",(req,res)=>{
     console.log(`connection from ${req.host}`)
-    res.send("Your request has been accepted");
+    res.sendFile(path.join(__dirname + '/test.html'));
 })
 
 

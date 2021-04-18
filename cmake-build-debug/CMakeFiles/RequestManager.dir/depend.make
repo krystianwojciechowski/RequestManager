@@ -3,18 +3,23 @@
 
 CMakeFiles/RequestManager.dir/HttpEngine/HttpEngine.cpp.o: ../HttpEngine/HttpEngine.cpp
 CMakeFiles/RequestManager.dir/HttpEngine/HttpEngine.cpp.o: ../HttpEngine/HttpEngine.h
+CMakeFiles/RequestManager.dir/HttpEngine/HttpEngine.cpp.o: ../HttpFundamentals/Request/Request.h
 
 CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o: ../HttpFundamentals/Request/Request.cpp
 CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o: ../HttpFundamentals/Request/Request.h
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/Request.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.h
+
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.cpp
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/Method/Method.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.h
 
 CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o: ../HttpFundamentals/Request/Request.h
-CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Methods/Methods.h
+CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.h
 CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o: ../HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp
 CMakeFiles/RequestManager.dir/HttpFundamentals/Request/RequestBuilder/RequestBuilder.cpp.o: ../HttpFundamentals/Request/RequestBuilder/RequestBuilder.h
 
 CMakeFiles/RequestManager.dir/main.cpp.o: ../HttpEngine/HttpEngine.h
 CMakeFiles/RequestManager.dir/main.cpp.o: ../HttpFundamentals/Request/Request.h
-CMakeFiles/RequestManager.dir/main.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Methods/Methods.h
+CMakeFiles/RequestManager.dir/main.cpp.o: ../HttpFundamentals/Request/RequestBuilder/Method/Method.h
 CMakeFiles/RequestManager.dir/main.cpp.o: ../HttpFundamentals/Request/RequestBuilder/RequestBuilder.h
 CMakeFiles/RequestManager.dir/main.cpp.o: ../main.cpp
 

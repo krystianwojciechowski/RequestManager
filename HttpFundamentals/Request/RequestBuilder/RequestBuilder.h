@@ -7,18 +7,20 @@
 #include <string>
 
 #include "../Request.h"
-#include "Methods/Methods.h"
+#include "Method/Method.h"
 
 class RequestBuilder {
 private:
     Request request;
 public:
+    RequestBuilder();
     void addHeader(std::string header,std::string value);
-    void setMethod(Methods method=Methods::GET);
+    void setMethod(std::string method=Method::GET);
     void setURL(std::string url);
     void setResource(std::string resource);
     void setBody(std::string body);
     Request* build();
+
 };
 
 
